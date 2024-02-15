@@ -14,7 +14,7 @@ class CartScreen extends GetView<CartController> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: const Text('Cart'),
+        title: const Text('Carts'),
         leading: IconButton(
           onPressed: () {
             Get.back();
